@@ -1,0 +1,40 @@
+#row1
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;  /* Pushes the element to the right */
+    margin-right: auto; /* Pushes the element to the left */
+    margin-top: 25px;
+ 
+}
+#row2
+{
+    display:flex;
+    margin-top: 25px;
+}
+
+
+#logo
+{
+   width:50%;
+  
+}
+#auth
+{
+   width:50%;
+   text-align: right;
+   font-weight: 600;
+}
+#buttonRechercher
+{
+    background-color: #196EEE;
+    border-radius:5px;
+    color:white;
+    border:1px white;
+
+  background-image: url('./assets/imgs/searchIcon.png');
+  background-size: 16px 16px; /* Adjust the size to fit your icon */
+  background-repeat: no-repeat;
+  background-position:35px center;
+}

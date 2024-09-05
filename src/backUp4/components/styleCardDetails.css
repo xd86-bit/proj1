@@ -1,0 +1,114 @@
+#header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;  
+    margin-right: auto;
+    margin-top: 25px;
+}
+#logo
+{
+}
+#auth
+{
+   width:50%;
+   text-align: right;
+   font-weight: 600;
+}
+#row1{
+   display:flex;
+ }
+#row1 h3{
+  text-align:center;
+  width:30%;
+}
+#row3{
+   display:flex;
+   flex-wrap:wrap;
+   justify-content: space-between;
+}
+#address{
+width:50%;
+}
+#prix{
+   width:50%;
+   text-align: right;
+}
+#city{
+   width:50%;
+   display:flex;
+   align-items:center;
+}
+#date{
+   width:50%;
+   text-align: right;
+}
+#row5{
+   display:flex;
+   align-items: center;
+   border-radius:10px;
+}
+#row5 #image img{
+   border-radius:10px;
+}
+#row5 #image{
+   width:70%;
+   text-align:center;
+}
+#row5 #vecLeft{
+   width:15%;
+   text-align:right;
+}
+#row5 #vecRight{
+   width:15%;
+}
+#row7{ 
+   display:flex;
+   flex-direction: column;
+}
+#row8{  
+   display:flex;
+   /*
+   justify-content: space-between;*/
+}
+.dollar-input{
+   display: flex;
+   align-items: center; /* Center items vertically */
+   padding-right: 10px;
+}
+#dollarInput{
+   border-radius:5px;
+   border: 1px solid #ccc;
+}
+
+.input-field {
+   flex: 1; /* Take remaining space */
+   padding-right: 30px; /* Ensure space for the dollar sign */
+}
+.dollar-sign {
+   margin-left: -30px; /* Optional: Adjust spacing between input and dollar sign */
+   color: #555; /* Optional: Adjust color as needed */
+}
+#row10{
+   display:flex;
+   justify-content: space-between;
+}
+#div-btn{
+ display:flex;
+ align-items: center;
+ 
+}
+#i{
+   margin-left:-200px;
+}
+#btn{
+   flex:1;
+   padding-left:35px;
+   border-radius:8px;
+   background-color:#0071BD;
+}
+#cardBody div{
+   /*
+   margin-top: 10px;*/
+   padding-top: 10px;
+}
